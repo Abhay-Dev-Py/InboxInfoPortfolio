@@ -1,0 +1,48 @@
+import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+import { BreadcrumbService, Breadcrumb } from 'angular-crumbs';
+import { Location, LocationStrategy, PathLocationStrategy } from '@angular/common';
+declare const main: any;
+declare const heyy: any;
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'],
+  providers: [
+    Location, {
+      provide: LocationStrategy,
+      useClass: PathLocationStrategy
+    }
+  ]
+})
+export class AppComponent implements OnInit {
+  constructor(private titleService: Title, private breadcrumbService: BreadcrumbService) {
+  }
+  ngOnInit(): void {
+    new heyy();
+    
+    this.breadcrumbService.breadcrumbChanged.subscribe(crumbs => {
+      this.titleService.setTitle(this.createTitle(crumbs));
+    });
+    
+    
+  }
+  onActivate(event: any){
+    window.scroll(0,0);
+  }
+  private createTitle(routesCollection: Breadcrumb[]) {
+    const title = 'Inbox Infotech Pvt Ltd - Simplifying your IT needs';
+    const titles = routesCollection.filter((route) => route.displayName);
+
+    if (!titles.length) { return title; }
+
+    const routeTitle = this.titlesToString(titles);
+    return `${title}${routeTitle}`;
+  }
+
+  private titlesToString(titles: any[]) {
+    return titles.reduce((prev: any, curr: { displayName: any; }) => {
+      return `${prev} | ${curr.displayName}`;
+    }, '');
+  }
+}

@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "linkText": "Home",
+        "link": "/"
+        
+    
+    },
+    {
+        "id": 2,
+        "link": "/about",
+        "linkText": "About"
+    },
+    {
+        "id": 3,
+        "linkText": "Services",
+        "child": false,
+        "submenu": [
+            {
+                "id": 31,
+                "link": "/services",
+                "linkText": "Services"
+            },
+            {
+                "id": 33,
+                "link": "/service-details",
+                "linkText": "Service Details"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "linkText": "Careers",
+        "link":"careers",
+        "child": false,
+        "submenu": [
+            {
+                "id": 41,
+                "link": "/case-study",
+                "linkText": "Case Study"
+            },
+            {
+                "id": 42,
+                "link": "/case-details/1",
+                "linkText": "Case Details"
+            },
+            {
+                "id": 43,
+                "link": "/comingsoon",
+                "linkText": "Coming Soon"
+            },
+            {
+                "id": 44,
+                "link": "/error",
+                "linkText": "Error 404"
+            },
+            {
+                "id": 45,
+                "link": "/faq",
+                "linkText": "FAQ's"
+            },
+            {
+                "id": 46,
+                "link": "/pricing",
+                "linkText": "Pricing"
+            },
+            {
+                "id": 47,
+                "link": "/shop",
+                "linkText": "Shop"
+            },
+            {
+                "id": 48,
+                "link": "/shop-details/1",
+                "linkText": "Shop Details"
+            },
+            {
+                "id": 49,
+                "link": "/team",
+                "linkText": "Team"
+            },
+            {
+                "id": 410,
+                "link": "/team-details/1",
+                "linkText": "Team Details"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "linkText": "Blog",
+        "link": "/blog-standard"
+      
+    },
+    {
+        "id": 6,
+        "link": "/contact",
+        "linkText": "Contact"
+    }
+]
