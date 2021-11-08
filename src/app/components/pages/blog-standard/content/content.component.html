@@ -14,12 +14,12 @@
                             
                             <h2 class="title">{{item.title}}</h2>
                             <ul>
-                                <li><i class="fal fa-eye"></i> {{item.views}} Views</li>
-                                <li><i class="fal fa-comments"></i> {{item.reviews.length}} Comments</li>
+                                <!-- <li><i class="fal fa-eye"></i> {{item.views}} Views</li>
+                                <li><i class="fal fa-comments"></i> {{item.reviews.length}} Comments</li> -->
                                 <li><i class="fal fa-calendar-alt"></i> {{item.postdate}}</li>
                             </ul>
                             <p>{{item.shortdesc}}</p>
-                            <div class="blog-flex">
+                            <!-- <div class="blog-flex">
                                 <div class="blog-left" *ngFor="let author of getAuthor(item.author)">
                                     <p><span>by</span> <a routerLink="/blog/author/{{author.id}}">{{author.name}}</a></p>
                                     <img [src]="author.img" [alt]="author.name">
@@ -27,7 +27,7 @@
                                 <div class="blog-right">
                                     <a routerLink="/blog-details/{{item.id}}"><i class="fal fa-arrow-right"></i>Read More</a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

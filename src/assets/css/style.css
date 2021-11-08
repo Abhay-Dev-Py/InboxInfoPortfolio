@@ -4887,6 +4887,23 @@ PRELOADER
 .about-history-area .history-item.history-item-2 .number-box {
 	left: -100px;
 }
+
+.about-history-area .history-item.history-item-3 {
+	margin-right: 0;
+	margin-left: 55px;
+}
+@media (max-width: 767px) {
+	.about-history-area .history-item.history-item-3 {
+		margin-left: 0;
+	}
+}
+.about-history-area .history-item.history-item-3::after {
+	left: -72px;
+}
+.about-history-area .history-item.history-item-3 .number-box {
+	left: -100px;
+}
+
 .about-history-area .history-item::after {
 	position: absolute;
 	content: '';
@@ -7041,12 +7058,21 @@ nav .pagination.pagination-2 li a.active {
 	white-space: nowrap;
 	padding-top: 5px;
 }
+.center {
+	position: absolute;
+	/* top: 50; */
+	left: 50%;
+}
 .blog-standard .single-blog-standard .blog-standard-thumb {
 	position: relative;
+	left: 7%;
 }
 .blog-standard .single-blog-standard .blog-standard-thumb img {
-	width: 100%;
+	width: 50%;
+	
+	
 }
+
 .blog-standard .single-blog-standard .blog-standard-thumb a {
 	position: absolute;
 	left: 50%;

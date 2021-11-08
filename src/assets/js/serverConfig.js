@@ -27,5 +27,5 @@
 // };
  function heyy()
 {
-    alert('Hello');
+    console.log('Hello');
 }

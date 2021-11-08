@@ -31,7 +31,7 @@
     {
         "id": 4,
         "linkText": "Careers",
-        "link":"careers",
+        "link":"/careers",
         "child": false,
         "submenu": [
             {

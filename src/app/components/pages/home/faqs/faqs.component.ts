@@ -12,21 +12,21 @@ export class FaqsComponent implements OnInit {
   public counter = counter;
   faqs = [
     {
-      title:"Does any industry a more audience journey?",
-      text:"Today, the term Information Technology (IT) has ballooned to encompass is real. Today, the term Information Technology (IT) has ballooned to encompass is real.Today, the term Information Technology (IT) has ballooned to encompass is real."
+      title:"Which type of development you provide?",
+      text:"We work on many technologies like IOT techs, web development, and many more like this that technology brings business upper level."
     },
     {
-      title:"Over the years, a wide range of developments",
-      text:"Today, the term Information Technology (IT) has ballooned to encompass is real. Today, the term Information Technology (IT) has ballooned to encompass is real.Today, the term Information Technology (IT) has ballooned to encompass is real."
+      title:"Which type of storage do you used?",
+      text:"Once project is commutated can I maintain by my own or if in that project if I could make a change then can you do that?"
     },
-    {
-      title:"As a result, most of us need to know",
-      text:"Today, the term Information Technology (IT) has ballooned to encompass is real. Today, the term Information Technology (IT) has ballooned to encompass is real.Today, the term Information Technology (IT) has ballooned to encompass is real."
-    },
-    {
-      title:"Our knowledge of computers will help us",
-      text:"Today, the term Information Technology (IT) has ballooned to encompass is real. Today, the term Information Technology (IT) has ballooned to encompass is real.Today, the term Information Technology (IT) has ballooned to encompass is real."
-    },
+    // {
+    //   title:"As a result, most of us need to know",
+    //   text:"Today, the term Information Technology (IT) has ballooned to encompass is real. Today, the term Information Technology (IT) has ballooned to encompass is real.Today, the term Information Technology (IT) has ballooned to encompass is real."
+    // },
+    // {
+    //   title:"Our knowledge of computers will help us",
+    //   text:"Today, the term Information Technology (IT) has ballooned to encompass is real. Today, the term Information Technology (IT) has ballooned to encompass is real.Today, the term Information Technology (IT) has ballooned to encompass is real."
+    // },
     
   ];
 

@@ -4,27 +4,27 @@
         "title":"Project Complete",
         "text":"Sed ut perspiciatis unde omnis iste natus error sit voluptsantium doloremque laudantium",
         "icon":"fal fa-archive",
-        "value":569
+        "value":300
     },
     {
         "id":2,
         "title":"Happy Clients",
         "text":"Sed ut perspiciatis unde omnis iste natus error sit voluptsantium doloremque laudantium",
         "icon":"fal fa-user",
-        "value":356
+        "value":200
     },
     {
         "id":3,
         "title":"Business Partners",
         "text":"Sed ut perspiciatis unde omnis iste natus error sit voluptsantium doloremque laudantium",
         "icon":"fal fa-globe",
-        "value":783
+        "value":100
     },
     {
         "id":4,
-        "title":"IT Consultant",
+        "title":"Ongoing Project",
         "text":"Sed ut perspiciatis unde omnis iste natus error sit voluptsantium doloremque laudantium",
         "icon":"fal fa-award",
-        "value":894
+        "value":100
     }
 ]

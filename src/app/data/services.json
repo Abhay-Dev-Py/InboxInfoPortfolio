@@ -4,41 +4,48 @@
         "img":"assets/images/iot.png",
         "icon":"fas fa-transgender-alt",
         "title":"IoT Development",
-        "shortdesc":"The Internet of things describes the network of physical objects, so known as, things — that are embedded with sensors, software, and other technologies that is used for the purpose of connecting and exchanging data with other devices and systems over the Internet"
+        "shortdesc":"We can make your business more smart and also give you more automation in your products"
     },
     {
         "id":2,
         "img":"assets/images/services-thumb-2.jpg",
         "icon":"fas fa-chart-line",
         "title":"Business Analytics",
-        "shortdesc":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae inventore"
+        "shortdesc":"That grow your business that give you more business and many more things during the business ."
     },
     {
         "id":3,
         "img":"assets/images/services-thumb-3.jpg",
         "icon":"fas fa-broadcast-tower",
         "title":"Artifical Intelligence",
-        "shortdesc":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae inventore"
+        "shortdesc":"Artificial intelligence is intelligence demonstrated by machines, as opposed to natural intelligence displayed by animals including humans."
     },
     {
         "id":4,
         "img":"assets/images/services-thumb-4.jpg",
         "icon":"fal fa-hurricane",
         "title":"Web Development",
-        "shortdesc":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae inventore"
+        "shortdesc":"Make a website that grow your business more than you think. Make a good."
     },
     {
         "id":5,
         "img":"assets/images/services-thumb-5.jpg",
         "icon":"fal fa-bezier-curve",
         "title":"App Development",
-        "shortdesc":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae inventore"
+        "shortdesc":"Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones. These software applications are designed to run on mobile devices, such as a smartphone or tablet computer"
     },
     {
         "id":6,
         "img":"assets/images/services-thumb-6.jpg",
         "icon":"fal fa-umbrella",
-        "title":"Game Design",
-        "shortdesc":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae inventore"
+        "title":"UI & UX Design",
+        "shortdesc":"Make a good graphic for digital marketing, logo design, and more that give your website more attractive look than any other website. And digital marketing help you grow your business online and more."
+    },
+    {
+        "id":7,
+        "img":"assets/images/services-thumb-3.jpg",
+        "icon":"fas fa-broadcast-tower",
+        "title":"E-commerce",
+        "shortdesc":"Offering easy navigation and engaging interface, Inbox InfoTech offers e-commerce business solutions that facilitate an administrator with easy management facilities at Inbox InfoTech. We are a certified ecommerce website development company where we aim to take care of all criteria for the development services of the online store. Offering ecommerce hosting solutions, we develop a customized and secured online ecommerce store. Entrust our services for an agile driven E-commerce website solution."
     }
 ]
